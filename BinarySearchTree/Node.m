@@ -14,7 +14,8 @@
     self = [super init];
     if (self){
         self.item = 1;
-        self.next = nil;
+        self.left = nil;
+        self.right = nil;
     }
     return self;
 }
@@ -23,7 +24,8 @@
     self = [super init];
     if (self){
         self.item = i;
-        self.next = nil;
+        self.left = nil;
+        self.right = nil;
     }
     return self;
 }

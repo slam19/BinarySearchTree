@@ -11,8 +11,8 @@
 @interface Node<ObjectType>: NSObject
 
 @property int item;
-@property Node *next;
-@property Node *previous;
+@property Node *left;
+@property Node *right;
 
 
 -(id) initWithItem: (int) f;
